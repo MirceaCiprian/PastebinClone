@@ -1,0 +1,73 @@
+﻿@page
+@model RazorPagesPastebin.Pages.Pastebins.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Pastebin</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pastebin.Paste)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pastebin.Paste)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pastebin.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pastebin.Category)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pastebin.Tags)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pastebin.Tags)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pastebin.SyntaxHighlighting)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pastebin.SyntaxHighlighting)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pastebin.PasteExpiration)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pastebin.PasteExpiration)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pastebin.PasteExposure)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pastebin.PasteExposure)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pastebin.Folder)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pastebin.Folder)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pastebin.Password)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pastebin.Password)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Pastebin.Title)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Pastebin.Title)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Pastebin.Id">Edit</a> |
+    <a asp-page="./Index">Back to List</a>
+</div>

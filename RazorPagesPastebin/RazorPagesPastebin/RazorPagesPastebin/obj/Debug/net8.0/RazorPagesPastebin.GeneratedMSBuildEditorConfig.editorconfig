@@ -1,0 +1,111 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = RazorPagesPastebin
+build_property.RootNamespace = RazorPagesPastebin
+build_property.ProjectDir = D:\Dotnet projects\RazorPagesPastebin\RazorPagesPastebin\RazorPagesPastebin\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Dotnet projects\RazorPagesPastebin\RazorPagesPastebin\RazorPagesPastebin
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Pastebins/API.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzdGViaW5zXEFQSS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Pastebins/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzdGViaW5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Pastebins/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzdGViaW5zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Pastebins/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzdGViaW5zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Pastebins/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzdGViaW5zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Pastebins/FAQ.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzdGViaW5zXEZBUS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Pastebins/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzdGViaW5zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Pastebins/Tools.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFzdGViaW5zXFRvb2xzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Users/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Users/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Users/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Users/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Users/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Users/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Users/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlcnNcTG9nb3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Dotnet projects/RazorPagesPastebin/RazorPagesPastebin/RazorPagesPastebin/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-q7ygm4xnmc

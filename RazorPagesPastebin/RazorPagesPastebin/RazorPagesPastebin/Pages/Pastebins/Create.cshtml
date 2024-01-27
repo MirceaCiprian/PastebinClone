@@ -1,0 +1,74 @@
+﻿@page
+@model RazorPagesPastebin.Pages.Pastebins.CreateModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Pastebin</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Pastebin.Paste" class="control-label"></label>
+                <input asp-for="Pastebin.Paste" class="form-control" />
+                <span asp-validation-for="Pastebin.Paste" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pastebin.Category" class="control-label"></label>
+                <input asp-for="Pastebin.Category" class="form-control" />
+                <span asp-validation-for="Pastebin.Category" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pastebin.Tags" class="control-label"></label>
+                <input asp-for="Pastebin.Tags" class="form-control" />
+                <span asp-validation-for="Pastebin.Tags" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pastebin.SyntaxHighlighting" class="control-label"></label>
+                <input asp-for="Pastebin.SyntaxHighlighting" class="form-control" />
+                <span asp-validation-for="Pastebin.SyntaxHighlighting" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pastebin.PasteExpiration" class="control-label"></label>
+                <input asp-for="Pastebin.PasteExpiration" class="form-control" />
+                <span asp-validation-for="Pastebin.PasteExpiration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pastebin.PasteExposure" class="control-label"></label>
+                <input asp-for="Pastebin.PasteExposure" class="form-control" />
+                <span asp-validation-for="Pastebin.PasteExposure" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pastebin.Folder" class="control-label"></label>
+                <input asp-for="Pastebin.Folder" class="form-control" />
+                <span asp-validation-for="Pastebin.Folder" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pastebin.Password" class="control-label"></label>
+                <input asp-for="Pastebin.Password" class="form-control" />
+                <span asp-validation-for="Pastebin.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Pastebin.Title" class="control-label"></label>
+                <input asp-for="Pastebin.Title" class="form-control" />
+                <span asp-validation-for="Pastebin.Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

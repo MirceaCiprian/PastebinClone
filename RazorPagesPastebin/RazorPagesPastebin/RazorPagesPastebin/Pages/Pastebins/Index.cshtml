@@ -1,0 +1,84 @@
+﻿@page "/"
+@model RazorPagesPastebin.Pages.Pastebins.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>User Pastes</h1>
+
+<p>
+    <a asp-page="Create">Create New Paste</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Paste
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pastebin[0].Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pastebin[0].Tags)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pastebin[0].SyntaxHighlighting)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pastebin[0].PasteExpiration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pastebin[0].PasteExposure)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pastebin[0].Folder)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pastebin[0].Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Pastebin[0].Title)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Pastebin) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Paste)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tags)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SyntaxHighlighting)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PasteExpiration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PasteExposure)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Folder)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Password)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
